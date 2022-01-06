@@ -10,14 +10,14 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s2 = socket.socket()
 
 
-os.system("cls")
+os.system("clear")
 
 time.sleep(1)
 print("Lütfen Bekleyiniz...")
 time.sleep(1)
 print("Program Açılıyor...")
 time.sleep(1)
-os.system("cls")
+os.system("clear")
 
 print("-------------------------------------")
 print("ProtocolWebServiceScannerV1")
@@ -30,7 +30,7 @@ host = input("Hedef Host: ")
 port = input("Hedef Port: ")
 protocol = input("Etkinleştirmek İstediğiniz Protokolü Girin: ")
 
-os.system("cls")
+os.system("clear")
 
 #Requests Information
 r = requests.get(url)
