@@ -113,7 +113,7 @@ print("Port Information")
 print("----------------------------------------------------------------")
 print(f"Scaning Target: {ipaddress}")
 try:
-    for port2 in range(1, 65535):
+    for port2 in range(1, 500):
         s4 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket.setdefaulttimeout(1)
     
