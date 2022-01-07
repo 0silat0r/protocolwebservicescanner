@@ -108,6 +108,22 @@ try:
     response = os.system(f"ping -c 4 {host}")
     print(response)
     print("----------------------------------------------------------------")
+    print()
+    print("Port Information")
+    print("----------------------------------------------------------------")
+    print(f"Scaning Target: {ipaddress}")
+    try:
+        for port2 in range(1, 65535):
+            s4 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            socket.setdefaulttimeout(1)
+    
+            result = s4.connect_ex((ipaddress, port2))
+            if result == 0:
+                print("Port {} is open".format(port2))
+            s4.close()
+    except KeyboardInterrupt:
+        print("Port Taramasını Durdurdunuz!")
+print("----------------------------------------------------------------")
     
 except KeyboardInterrupt:
     print("Programdan Çıkış Yaptınız!")
