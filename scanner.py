@@ -66,12 +66,12 @@ try:
     print("Address Information")
     for i in addressinfo:
         print(f"-------------> {i}")
-    print("TCP/IP Protocol Information")
     print()
+    print("TCP/IP Protocol Information")
     for j in addressinfo2:
         print(f"-------------> {j}")
-    print("UDP Protocol Information")
     print()
+    print("UDP Protocol Information")
     for k in addressinfo3:
         print(f"-------------> {k}")
     print()
@@ -103,6 +103,12 @@ try:
     print(f"Status Codes History: {history}")
     print("----------------------------------------------------------------")   
     print()
+    print("PING Information")
+    print("----------------------------------------------------------------")   
+    response = os.system(f"ping -c 4 {host}")
+    print(response)
+    print("----------------------------------------------------------------")
+    print()
     print("Port Information")
     print("----------------------------------------------------------------")
     print(f"Scaning Target: {ipaddress}")
@@ -117,7 +123,7 @@ try:
             s4.close()
     except KeyboardInterrupt:
         print("Port Taramasını Durdurdunuz!")
-        sys.exit()
+        continue
     print("----------------------------------------------------------------")
  
 except KeyboardInterrupt:
