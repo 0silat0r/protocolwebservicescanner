@@ -4,7 +4,7 @@
 Türkish Language
 Merhaba değerli kullanıcı!
 protocolwebservicescanner aracını kullanmadan önce 
-gerekli kurulumlarını yapman gerekli. Python 3.9 ile yazıldı.
+kurulumlarını yapman gerekli. Python 3.9 ile yazıldı.
 
 Eğer Windows üzerinden çalıştırılacaksa requirements.txt dosyasının içerisindeki paketlerin 
 kurulumunu yapmanız gerekmekte. Windows Powershell ya da Komut İstemi üzerinden kurulumları
