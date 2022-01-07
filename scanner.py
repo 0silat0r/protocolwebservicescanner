@@ -149,7 +149,7 @@ try:
             s4.close()
     except KeyboardInterrupt:
         print("Port Taramasını Durdurdunuz!")
-print("----------------------------------------------------------------")
+    print("----------------------------------------------------------------")
     
 except KeyboardInterrupt:
     print("Programdan Çıkış Yaptınız!")
