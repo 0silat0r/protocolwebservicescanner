@@ -22,7 +22,7 @@ try:
 
     print("-------------------------------------")
     print("ProtocolWebServiceScannerV1")
-    print("Programmer: Mfk880")
+    print("Programmer: Sh4d0wE4")
     print("-------------------------------------")
     time.sleep(3)
     
