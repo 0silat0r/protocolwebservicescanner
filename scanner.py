@@ -51,7 +51,6 @@ try:
     addressinfo = socket.getaddrinfo(host, port)
     addressinfo2 = socket.getaddrinfo(host, port, family=socket.AF_INET, proto=socket.IPPROTO_TCP)
     addressinfo3 = socket.getaddrinfo(host, port, family=socket.AF_INET, proto=socket.IPPROTO_UDP)
-    addressinfo4 = socket.getaddrinfo(host, port, family=socket.AF_INET, proto=socket.INADDR_BROADCAST)
     protocolname = socket.getprotobyname(protocol)
 
     print("________________________________________________________________")
@@ -72,9 +71,6 @@ try:
     print()
     for k in addressinfo3:
         print(f"-------------> {k}")
-    print()
-    for l in addressinfo4:
-        print(f"-------------> {l}")
     print()
     if protocolname == "TCP":
         print(f"Protocol Name: TCP || Protocol Number İs {protocolname}")
