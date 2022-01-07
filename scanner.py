@@ -52,9 +52,9 @@ try:
     
     time.sleep(3)
 
-    url = input("Hedef URL: ")
-    host = input("Hedef Host: ")
-    port = input("Hedef Port: ")
+    url = input("Hedef URL (Target URL): ")
+    host = input("Hedef Host (Target Host): ")
+    port = input("Hedef Port (Target Port): ")
     protocol = input("Etkinleştirmek İstediğiniz Protokolü Girin: ")
 
     os.system("clear")
