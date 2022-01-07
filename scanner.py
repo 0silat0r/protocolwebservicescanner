@@ -129,14 +129,12 @@ try:
     print(f"Status Codes History: {history}")
     print("----------------------------------------------------------------")   
     print()
-    print("PING Information")
-    print("----------------------------------------------------------------")   
+    print("----------------------- PING Information -----------------------")
     response = os.system(f"ping -c 4 {host}")
     print(response)
     print("----------------------------------------------------------------")
     print()
-    print("Port Information")
-    print("----------------------------------------------------------------")
+    print("----------------------- PORT Information -----------------------")
     print(f"Scaning Target: {ipaddress}")
     try:
         for port2 in range(1, 65535):
@@ -150,6 +148,7 @@ try:
     except KeyboardInterrupt:
         print("Port Taramasını Durdurdunuz!")
     print("----------------------------------------------------------------")
+    print("________________________________________________________________")
     
 except KeyboardInterrupt:
     print("Programdan Çıkış Yaptınız!")
