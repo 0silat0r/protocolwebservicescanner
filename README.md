@@ -2,6 +2,7 @@
 
 ----------------------------------------------------------------------------------------
 Türkish Language
+
 Merhaba değerli kullanıcı!
 protocolwebservicescanner aracını kullanmadan önce 
 kurulumlarını yapman gerekli. Python 3.9 ile yazıldı.
@@ -28,6 +29,7 @@ Sh4d0wE4
 
 ----------------------------------------------------------------------------------------
 English Language
+
 Hello dear user!
 Before using the protocolwebservicescanner tool
 You need to do the necessary installations. Written in Python 3.9.
