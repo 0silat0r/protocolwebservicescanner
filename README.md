@@ -41,6 +41,7 @@ You need to do the necessary installations. Written in Python 3.9.
 
 
 TO DO FOR WINDOWS
+
 If it will be run on Windows, check the packages in the requirements.txt file.
 you need to install it. Installation via Windows Powershell or Command Prompt
 It will be enough to do it and run the run.bat file.
@@ -54,6 +55,7 @@ After the installations, it will be enough to run the run.bat file.
 
   
 TO DO FOR KALI LINUX
+
 python3 scanner.py
 for installation:
 bash requirement.sh
