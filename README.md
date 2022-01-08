@@ -9,6 +9,7 @@ kurulumlarını yapman gerekli. Python 3.9 ile yazıldı.
 
 
 WINDOWS İÇİN YAPILACAKLAR
+
 Eğer Windows üzerinden çalıştırılacaksa requirements.txt dosyasının içerisindeki paketlerin 
 kurulumunu yapmanız gerekmekte. Windows Powershell ya da Komut İstemi üzerinden kurulumları
 yapıp, run.bat dosyasını çalıştırmanız yeterli olacaktır.
@@ -21,6 +22,7 @@ kurulu olduğu bölgede olmanız önemlidir. Aksi halde komut işlemini yerine g
 Kurulumlardan sonra run.bat dosyasını çalıştırman yeterli olacaktır.
 
 KALI LINUX İÇİN YAPILACAKLAR
+
 python3 scanner.py 
 Kurulum içinse:
 bash requirement.sh
