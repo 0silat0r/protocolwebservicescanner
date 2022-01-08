@@ -1,7 +1,5 @@
 echo "installing in progress.."
-timeout 3
 echo "please hold on.."
-timeout 3
 
 apt-get update
 apt-get upgrade -y
