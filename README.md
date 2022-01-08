@@ -7,6 +7,8 @@ Merhaba değerli kullanıcı!
 protocolwebservicescanner aracını kullanmadan önce 
 kurulumlarını yapman gerekli. Python 3.9 ile yazıldı.
 
+
+WINDOWS İÇİN YAPILACAKLAR
 Eğer Windows üzerinden çalıştırılacaksa requirements.txt dosyasının içerisindeki paketlerin 
 kurulumunu yapmanız gerekmekte. Windows Powershell ya da Komut İstemi üzerinden kurulumları
 yapıp, run.bat dosyasını çalıştırmanız yeterli olacaktır.
@@ -18,9 +20,10 @@ pip install -r requirements.txt
 kurulu olduğu bölgede olmanız önemlidir. Aksi halde komut işlemini yerine getirmeyecektir.)
 Kurulumlardan sonra run.bat dosyasını çalıştırman yeterli olacaktır.
 
+KALI LINUX İÇİN YAPILACAKLAR
 python3 scanner.py 
 Kurulum içinse:
-bash requirements.sh
+bash requirement.sh
 komutunu girdiğin anda program çalışacaktır. Dilersen windows üzerinden kullanabilirsin.
 Sadece run.bat dosyasına çift tıklaman yeterli olacaktır.
 İyi çalışmalar..
@@ -34,6 +37,8 @@ Hello dear user!
 Before using the protocolwebservicescanner tool
 You need to do the necessary installations. Written in Python 3.9.
 
+
+TO DO FOR WINDOWS
 If it will be run on Windows, check the packages in the requirements.txt file.
 you need to install it. Installation via Windows Powershell or Command Prompt
 It will be enough to do it and run the run.bat file.
@@ -45,9 +50,11 @@ pip install -r requirements.txt
 It is important that you are in the region where it is installed. Otherwise, it will not execute the command operation.)
 After the installations, it will be enough to run the run.bat file. 
 
+  
+TO DO FOR KALI LINUX
 python3 scanner.py
 for installation:
-bash requirements.sh
+bash requirement.sh
 The program will run as soon as you enter the command. You can use it on windows if you wish.
 Just double-click the run.bat file.
 Good work..
